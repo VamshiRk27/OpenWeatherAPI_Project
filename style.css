@@ -1,0 +1,117 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+#container{
+    width: 100%;
+    height:100vh;
+    background-color: #360369;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content p{
+    font-size: 80px;
+    color: #FFF;
+    margin: 0;
+}
+#container button{
+    margin-top: 15px;
+    width: 410px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+}
+
+
+
+
+
+.containerInfo{
+    width: 100%;
+    height:100vh;
+    background-color: #360369;
+}
+#dataDiv{
+    width: 100%;
+    max-height:50vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.containerInfo p{
+    margin: 0;
+    color: white;
+    font-size: 60px;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+.containerInfo span{
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    padding: 0px 32px;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:200;
+}
+
+.containerInfo .locationData{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin:30px;
+    gap: 40px;
+}
+.containerInfo .latitude,.containerInfo .longitude{
+    width: 50%;
+    height: 50px;
+    border: none;
+    background-color: #270846;
+    border-radius: 6px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.containerInfo iframe{
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: calc(100vh - 260px);
+}
+
+.dataContainer p{
+    display: inline-block;
+    margin: 20px 30px;
+    font-size: 45px;
+    color: #360369;
+    font-weight:500;
+}
+.dataContainer .details{
+    display: flex;
+    width:94%;
+    flex-direction: column;
+}
+.details > div{
+    margin: 10px 30px;
+    display: flex;
+    gap: 80px;
+    width: 100%;
+}
+.dataContainer .box{
+    min-width: fit-content;
+    max-width: 300px;
+    height: 50px;
+    padding:0 35px;
+    border: none;
+    background-color: #360369;
+    border-radius: 5px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
